@@ -1,0 +1,21 @@
+{
+  "name": "hn-post-comments-sorted",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Browser extension that allows sorting HN post comments by date",
+  "scripts": {
+    "build": "./build.js",
+    "dev": "nodemon --watch src ./build.js"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": "latest"
+    }
+  },
+  "devDependencies": {
+    "adm-zip": "^0.5.10",
+    "fast-glob": "^3.3.2",
+    "nodemon": "^3.0.2"
+  }
+}

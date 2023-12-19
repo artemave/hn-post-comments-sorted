@@ -13,11 +13,11 @@ createExtensionZips()
 
 function createExtensionZips() {
   const zip2 = new AdmZip()
-  zip2.addLocalFolder('.build/v2', 'v2')
+  zip2.addLocalFolder('.build/v2', '')
   zip2.writeZip('.build/v2.zip')
 
   const zip3 = new AdmZip()
-  zip3.addLocalFolder('.build/v3', 'v2')
+  zip3.addLocalFolder('.build/v3', '')
   zip3.writeZip('.build/v3.zip')
 }
 

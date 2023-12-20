@@ -1,6 +1,6 @@
 {
   "name": "HN post comments sorted",
-  "version": "1.1",
+  "version": "1.2",
   "icons": {
     "48": "logo_48.png",
     "96": "logo_96.png",
@@ -14,5 +14,5 @@
   "permissions": [
     "https://hn.algolia.com/"
   ],
-  "content_security_policy": "script-src 'self' https://hn.algolia.com; object-src 'self'"
+  "content_security_policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
 }

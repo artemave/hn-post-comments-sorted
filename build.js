@@ -29,6 +29,11 @@ function compileManifests() {
   fs.writeFileSync('.build/v2/manifest.json', JSON.stringify(manifestTemplate, null, 2))
 
   manifestTemplate.manifest_version = 3
+  manifestTemplate.content_security_policy = {
+    extension_pages: manifestTemplate.content_security_policy
+  }
+  manifestTemplate.host_permissions = manifestTemplate.permissions
+  delete manifestTemplate.permissions
   fs.writeFileSync('.build/v3/manifest.json', JSON.stringify(manifestTemplate, null, 2))
 }
 

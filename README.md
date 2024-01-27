@@ -1,5 +1,4 @@
-# hn-post-comments-sorted ![Mozilla Add-on Version](https://img.shields.io/amo/v/hn-post-comments-sorted) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating-count/dmpckmaliambaalbnkmgdgmblafdchli?label=Chrome&link=https%3A%2F%2Fchromewebstore.google.com%2Fdetail%2Fhn-post-comments-sorted%2Fdmpckmaliambaalbnkmgdgmblafdchli)
-
+# hn-post-comments-sorted <a href="https://addons.mozilla.org/en-GB/firefox/addon/hn-post-comments-sorted/" target="_blank"><img alt="Mozilla Add-on Version" src="https://img.shields.io/amo/v/hn-post-comments-sorted"></a> <a href="https://chromewebstore.google.com/detail/hn-post-comments-sorted/dmpckmaliambaalbnkmgdgmblafdchli"  target="_blank"><img alt="Chrome Web Store Version" src="https://img.shields.io/chrome-web-store/v/dmpckmaliambaalbnkmgdgmblafdchli"></a>
 Browser extension that allows sorting HN post comments by date.
 
 ## Development
